@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    width: 1132px;
+    margin: auto;
+}
+
+.navbar {
+ 
+    overflow: hidden;
+    padding: 15px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #424247;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar img {
+    float: left;
+    max-height: 50px;
+}
+
+.menu-icon {
+    display: none;
+    float: right;
+    cursor: pointer;
+    color: #424247;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.menuitem {
+    display: block;
+    margin-top: -47px;
+}
+
+
+div#navbar h3 {
+    margin-left: 70px;
+    margin-top: 11px;
+}
+
+span.white {
+    color: #FF5400;
+}
+
+
+a.active {
+    color: #FF5400;
+    font-weight: 700;
+}
