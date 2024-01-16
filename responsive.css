@@ -84,17 +84,13 @@
 
     /* -------------------- foooter ------------------------------------- */
     
-    .container {
-        flex-direction: column;
-        text-align: center;
+    .footer-description {
+        width: auto;
+        padding: 0 10px; /* Adjust padding for smaller screens */
     }
 
-    .footer-title {
-        margin-top: 20px;
-    }
-
-    .social-icons {
-        margin-top: 20px;
+    .social-icon {
+        margin: 5px; /* Adjust spacing between social icons on smaller screens */
     }
  
 }
