@@ -28,7 +28,74 @@
         margin-top: 11px;
         font-size: 53px;
     }
+    /* ----------------- 2nd section ---------------------- */
 
+    .explore-section {
+        background-image: url('./image/travel.png');
+        background-position: center center;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color: #00000066;
+        color: #fff;
+        padding: 2rem;
+        margin-top: -4rem;
+        text-align: center;
+        border-radius: 15px;
+    }
+    
+    .explore-section h2 {
+        font-size: 44px;
+        margin-bottom: 15px;
+    }
+    
+    .explore-section p {
+        margin-bottom: 40px;
+        font-size: 30px;
+        line-height: 1.6;
+        padding: 1px 45px;
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 10px;
+        background: #fefefe54;
+        border-radius: 7px;
+    }
+    
+    .input-container input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .input-container button {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    i.fa-solid.fa-chevron-down,
+    i.fa-solid.fa-magnifying-glass {
+        transform: none;
+        margin-top: 5px;
+    }
+
+    /* -------------------- foooter ------------------------------------- */
+    
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-title {
+        margin-top: 20px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
  
 }
 

@@ -57,3 +57,403 @@ a.active {
     color: #FF5400;
     font-weight: 700;
 }
+/* ---------------------- 2nd section start here ----------------------------- */
+
+.explore-section {
+    background-image: url('./image/travel.png'); 
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #00000066;
+    color: #fff;
+    padding: 131px;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.explore-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.explore-section p {
+    margin-bottom: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 11px 29px;
+    background: #fefefe54;
+    border-radius: 7px;
+}
+
+.input-container input {
+    width: 53px;
+    flex: 1;
+    padding: 13px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(255 255 255);
+    border-radius: 8px;
+}
+
+.input-container button {
+    padding: 10px 46px;
+    border: none;
+    background-color: #FF5400;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+i.fa-solid.fa-chevron-down {
+    transform: translate(-36px,13px);
+    color: grey;
+    font-size: 13px;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    transform: translate(39px, 12px);
+    font-size: 14px;
+}
+
+
+/* ------------------------------- 3rd section start from here ------------------------------ */
+
+
+.text-content-wrapper {
+    display: flex;
+}
+
+section.popular-tours-section {
+    margin-top: 129px;
+}
+
+.text-content {
+    padding: 0px 36px;
+}
+
+.text-content h2 {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.text-content p {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.text-content ul li {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 36px;
+}
+
+.text-content button {
+    background: #FF5400;
+    border: none;
+    padding: 12px 32px;
+    margin-top: 17px;
+    color: white;
+    font-family: Mulish;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 600;
+}
+/*--------------------- 4th section start here ---------------------------------- */
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -29px;
+    margin-top: 1rem;
+    position: relative;
+}
+.image-section .header {
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.header h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 662px;
+    margin: auto;
+    line-height: 35px;
+}
+
+.image-row p {
+    position: absolute;
+    top: 7rem;
+    margin-left: 11rem;
+    color: white;
+    font-family: Mulish;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+
+
+p.k {
+    margin-left: 5rem;
+}
+
+p.nm {
+    margin-left: 7rem;
+}
+
+
+p.s {
+    margin-left: 8rem;
+}
+
+p.b {
+    margin-left: 9rem;
+}
+
+p.bbn {
+    margin-left: 15rem;
+}
+ 
+/* --------------------------------- 5h section ----------------------------- */
+
+.why-choose-us-item1 {
+    width: 466px;
+    float: left;
+    padding: 30px;
+    margin-right: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.row {
+    float: left;
+}
+
+.why-choose-us-item2 {
+    width: 466px;
+    float: right;
+    padding: 30px;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+
+.why-choose-us-item3 {
+    width: 466px;
+    margin: auto;
+    margin-left: 21rem;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px;
+}
+
+
+.wcuDetails {
+    margin-top: 2rem;
+}
+
+
+i.fa-solid.fa-hotel {
+    font-size: 32px;
+}
+
+ 
+
+i.fa-solid.fa-server {
+    font-size: 33px;
+}
+
+i.fa-solid.fa-wallet {
+    font-size: 33px;
+}
+section.why-choose-us-section {
+    overflow: hidden;
+}
+
+
+/* ---------------------- 6th section ------------------------------------ */
+.newsletter-section {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+}
+
+.newsletterWrapper {
+    display: flex;
+}
+ 
+
+.newsletter-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin-right: 2rem;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-form h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.newsletter-form p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 31px;
+    text-align: start;
+}
+
+.newsletter-form .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.newsletter-form .input-container input {
+    flex: 1;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: rgba(19, 19, 24, 0.05);
+    font-family: 'Mulish';
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #FF5400;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 98%;
+    margin-left: -11px;
+    font-family: 'Mulish';
+    font-size: 21px;
+}
+
+.image-container {
+ 
+    position: relative;
+}
+
+.rotate-button {
+    position: absolute;
+    top: 76%;
+    left: 82%;
+    transform: translate(-50%, -50%) rotate(337deg);
+    background-color: #FF5400;
+    color: #fff;
+    padding: 13px 27px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    width: 237px;
+    font-weight: 700;
+}
+
+
+button.rotate-button span {
+    font-weight: 200;
+}
+
+
+/* -------------------------- Footer section ----------------------- */
+
+
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #5A5A5D;
+    width: 721px;
+    margin: auto;
+    line-height: 28px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.copyright-message {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-header h3 {
+    margin-top: 6px;
+    margin-left: 1rem;
+}
+
+
+.social-icons i {
+    color: black;
+    margin-right: 1rem;
+}
