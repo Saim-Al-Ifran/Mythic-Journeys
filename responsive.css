@@ -240,7 +240,17 @@
     section.why-choose-us-section {
         overflow: visible;
     }
-  
+    .why-choose-us-item1 img {
+        width: 104px;
+    }
+    
+    .why-choose-us-item2 img {
+        width: 104px;
+    }
+    
+    .why-choose-us-item3 img {
+        width: 104px;
+    }
 
     .why-choose-us-item1 {
         float: unset;
