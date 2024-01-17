@@ -55,6 +55,7 @@
         padding: 1px 45px;
     }
     
+    
     .input-container {
         display: flex;
         flex-direction: column;
@@ -63,6 +64,7 @@
         padding: 10px;
         background: #fefefe54;
         border-radius: 7px;
+   
     }
     
     .input-container input {
@@ -76,23 +78,321 @@
         padding: 10px;
     }
     
-    i.fa-solid.fa-chevron-down,
+    i.fa-solid.fa-chevron-down.ddt {
+        margin-top: -16rem;
+    }
+    .input-container input {
+        width: 71%;
+        padding: 36px;
+        font-size: 33px;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    
+    
+    .input-container button {
+        width: 83%;
+        padding: 34px 0px;
+        font-size: 36px;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    
     i.fa-solid.fa-magnifying-glass {
-        transform: none;
-        margin-top: 5px;
+        transform: translate(-108px, 70px);
+        font-size: 31px;
+    }
+    
+    i.fa-solid.fa-chevron-down {
+        margin-top: 3rem;
+        position: absolute;
+        transform: translate(28rem, 50px);
+        font-size: 28px;
+    }
+
+
+    .text-content-wrapper {
+        display: inline-block;
+    }
+    
+    .text-content {
+        width: 508px;
+        margin: auto;
+        margin-left: 17rem;
+        font-size: 31px;
+    }
+    
+    .text-content button {
+        font-size: 32px;
+    }
+    
+    section.popular-tours-section {
+        margin-top: 2rem;
+    }
+
+    /* ---------------------- Popular section ---------------------- */
+    .image-container.ddfd {
+        margin-left: 19rem;
+        margin-top: 3rem;
     }
 
     /* -------------------- foooter ------------------------------------- */
     
+    .footer-title {
+        font-size: 20px;
+    }
+
     .footer-description {
-        width: auto;
-        padding: 0 10px; /* Adjust padding for smaller screens */
+        width: 66%;
+        padding: 0 20px;
+        font-size: 36px;
+        line-height: 59px;
+        text-align: center;
+        margin-left: 13rem;
+    }
+
+    .footer-logo img {
+        width: 97px;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .footer-title h3 {
+        font-size: 38px;
+        margin-top: 1rem;
+    }
+    .social-icons i {
+        font-size: 46px;
+        margin-right: 3rem;
     }
 
     .social-icon {
-        margin: 5px; /* Adjust spacing between social icons on smaller screens */
+        margin: 10px 0;
     }
+
+    .horizontal-line {
+        margin: 10px 0;
+    }
+
+    .copyright-message {
+        font-size: 33px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+
+    .social-icons {
+        margin-left: 7rem;
+    }
+
+    .copyright-message {
+        margin-left: 4rem;
+    }
+
+    /* ------------------------------ NewsLetter section ------------------------------ */
+    .newsletterWrapper {
+        display: inline-block;
+    }
+
+    button.rotate-button {
+        left: 79%;
+        top: 80%;
+    }
+    
+    .newsletter-form h2 {
+        font-size: 58px;
+    }
+    
+    .newsletter-form p {
+        font-size: 32px;
+    }
+    
+    .newsletter-form {
+        margin-bottom: 2rem;
+    }
+    
+    .newsletter-form .input-container input {
+        font-size: 29px;
+        padding: 27px;
+        width: 89%;
+        margin-left: 0rem;
+    }
+    
+    button.subscribe-button {
+        font-size: 32px;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        padding: 23px;
+    }
+    
+    .image-container {
+        margin-left: -2rem;
+    }
+
+    .newsletter-section {
+        overflow: visible;
  
+    }
+
+    /* ------------------------------ why choose us section --------------------------------------- */
+
+    section.why-choose-us-section {
+        overflow: visible;
+    }
+  
+
+    .why-choose-us-item1 {
+        float: unset;
+        margin-left: 16rem;
+        width: 617px;
+    }
+    
+    .why-choose-us-item1 i {
+        font-size: 26px;
+    }
+    
+    .why-choose-us-item1 i {
+        font-size: 52px!important;
+    }
+    
+    .why-choose-us-item1 h3 {
+        font-size: 42px;
+    }
+    
+    .why-choose-us-item1 p {
+        font-size: 35px;
+    }
+    
+    .why-choose-us-item2 {float: unset;margin-left: 16rem;width: 617px;margin-top: 2rem;}
+    
+    .why-choose-us-item2 i {
+        font-size: 52px!important;
+    }
+    
+    .why-choose-us-item2 h3 {
+        font-size: 42px;
+    }
+    
+    .why-choose-us-item2 p {
+        font-size: 35px;
+    }
+    
+    .why-choose-us-item3 {
+        float: unset;
+        margin-left: 16rem;
+        width: 617px;
+        margin-bottom: 3rem;
+    }
+    
+    .why-choose-us-item3 i {
+        font-size: 52px!important;
+    }
+    
+    .why-choose-us-item3 h3 {
+        font-size: 42px;
+    }
+    
+    .why-choose-us-item3 p {
+        font-size: 35px;
+    }
+    
+    .header h2 {
+        font-size: 71px;
+    }
+    
+    .header p {
+        font-size: 39px;
+        line-height: 63px;
+        margin-bottom: 4rem;
+    }
+    /* ----------------------------Choose yoour desitnation section -------------------------------- */
+
+    .image-row {
+        display: inline;
+        text-align: center;
+    }
+
+    img.img1 {
+        margin-bottom: 2rem;
+    }
+    img.img2 {
+        margin-bottom: 1rem;
+    }
+  
+    img.img3 {
+        width: 584px;
+        height: 319px;
+        margin-bottom: 2rem;
+    }
+    
+    img.img4 {
+        width: 584px;
+        height: 319px;
+        margin-bottom: 2rem;
+    }
+    
+    img.img5 {
+        width: 584px;
+        height: 319px;
+        margin-bottom: 1rem;
+    }
+    
+    img.img6 {
+        width: 584px;
+        height: 319px;
+        margin-bottom: 2rem;
+    }
+    
+    img.img7 {
+        width: 584px;
+        height: 319px;
+        margin-bottom: 2rem;
+    }
+    
+    .image-row p.m {
+        margin-left: 29rem;
+        margin-top: 21px;
+    }
+    
+    p.s {
+        margin-left: 30rem;
+        margin-top: 51px;
+    }
+    
+    .image-row p {
+        font-size: 46px;
+    }
+    
+    p.nm {
+        margin-left: 30rem;
+        margin-top: 23rem;
+    }
+    
+    p.b {
+        margin-left: 27rem;
+        margin-top: 42px;
+    }
+    
+    p.bbn {
+        margin-left: 27rem;
+        margin-top: 25rem;
+    }
+    
+    p.k {
+        margin-left: 30rem;
+        margin-top: 48rem;
+    }
+    
+    p.indo {
+        margin-left: 29rem;
+        margin-top: 22rem;
+    }
+    .header h2 {
+        font-size: 53px;
+    }
+    
+
 }
 
 
